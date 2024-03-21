@@ -1,0 +1,96 @@
+html {
+  background-color: white;
+}
+.email {
+  text-align: center;
+}
+
+h3 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: xx-large;
+}
+.container{
+    display:flex;
+}
+.box {
+    width: 500px;
+    height: 134px;
+    background-color: teal;
+    margin-right: 51px;
+    margin-left: 14px;
+    z-index: 1;
+}
+.bigbox{
+    position: absolute;
+    bottom: 0;
+    height:75%;
+    width: 95%;
+    background-color: teal;
+    padding: 20px; 
+    z-index: 1;
+}
+.bigTriangle {
+    z-index: 2;
+    width: 0;
+    height: 0;
+    top: 100px;
+    left: 339px;
+    position: absolute;
+    border-right: 550px solid transparent;
+    border-left: 550px solid transparent;
+    border-bottom: 800px solid darkgreen;
+}
+.mediumTriangle {
+    z-index: 3;
+    width: 0;
+    height: 0;
+    top: 300px;
+    left: 700px;
+    position: absolute;
+    border-right: 446px solid transparent;
+    border-left: 409px solid transparent;
+    border-bottom: 600px solid yellowgreen;
+}
+.circle {
+    height: 5.5rem;
+    width: 5.5rem;    
+    background-color: salmon;
+    border-radius: 50%;
+    z-index: 2;
+    position: fixed;
+    top: 10px; /* Adjust top positioning */
+    left:5px;
+}
+.circle1 {
+    height: 7.5rem;
+    width: 7.5rem;    
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 10px; /* Adjust top positioning */
+    left:500px;
+}
+.circle2 {
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color: yellow;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute;
+    top: 266px;
+    left: 290px;
+}
+.circle3 {
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: salmon;
+    border-radius: 50%;
+    z-index: 2;
+    position: fixed;
+    top: 37px;
+    left: 668px;
+}
